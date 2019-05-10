@@ -8,6 +8,7 @@
     1. Block-Cahin(CrpMainNet) - Modified its web3 based on etherium core
     2. Web3 - Modified its web3 based on etherium web3
     3. ubuntu - system environment
+    
   d. My job
     1. Develop smart-contract for CRP_service with solidity
     2. Test whether smart-contract works well
