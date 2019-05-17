@@ -31,6 +31,7 @@ contract CrpPollWithdraw is CrpInfc {
 
     bool public result_poll; // 투표 결과
     uint public voter_count; // 투표자 수
+    bool public settle;  // statement settle variable
 
     address public main_contract; //메인컨트렉트 계좌
     address public owner; // 오너 계좌
@@ -64,6 +65,7 @@ contract CrpPollWithdraw is CrpInfc {
         withdraw_crp = _withdraw_crp;
         main_contract = _main;
         result_poll = true;
+        settle = false;
         voter_count = 0;
     }
 
@@ -147,6 +149,7 @@ contract CrpPollWithdraw is CrpInfc {
         total_addr = _addr_count;
         total_weight = _total_token;
         total_agree = _total_agree;
+        settle = true;
 
         uint256 tmp = (total_addr.mul(7)).div(10); // 70% 계좌수
         uint256 tmp_total = agree_addr.add(disagree_addr); //  전체 투표자 수

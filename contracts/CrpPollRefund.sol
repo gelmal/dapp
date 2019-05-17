@@ -29,7 +29,8 @@ contract CrpPollRefund is CrpInfc {
     uint256 public poll_started; // 투표 시작 시간
     uint256 public poll_ended; // 투표 종료 시간
 
-    bool public result_poll; // 투표 결과  
+    bool public result_poll; // 투표 결과
+    bool public settle;  // statement settle variable
     uint public voter_count; // 투표자 수
 
     address public main_contract; // 메인컨트렉트 주소
@@ -61,6 +62,7 @@ contract CrpPollRefund is CrpInfc {
         poll_ended = _end_time;
         main_contract = _main;
         result_poll = true;
+        settle = false;
         voter_count = 0;
     }
 
@@ -147,6 +149,7 @@ contract CrpPollRefund is CrpInfc {
         total_addr = _addr_count;
         total_weight = _total_token;
         total_agree = _total_agree;
+        settle = true;
 
         uint256 tmp = (total_addr.mul(7)).div(10); // 70% 계좌수
         uint256 tmp_total = agree_addr.add(disagree_addr); //  전체 투표자 수
