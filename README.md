@@ -1,4 +1,4 @@
-# CRP(It complies with the rules of sto 20 & erc20)
+# CRP(It complies with the rules of STO20 & ERC20)
   a. Crp project's SmartContract & JS api
 
   b. My code marked '@author sykang' in function
