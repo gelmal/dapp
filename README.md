@@ -13,6 +13,8 @@
     
     3. ubuntu - system environment
     
+    4. docker - Works Ethereum & CRP private network for development & test
+    
   d. My job
   
     1. Develop smart-contract for CRP_service with solidity
