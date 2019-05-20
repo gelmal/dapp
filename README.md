@@ -2,13 +2,14 @@
   a. Crp project's SmartContract & JS api
 
   b. My code marked '@author sykang' in function
+  
       It's still an incomplete project.
 
   c. Development environment
   
-    1. Block-Cahin(CrpMainNet) - Modified its web3 based on etherium core
+    1. Block-Cahin(CrpMainNet) - Modified its web3 based on Ethereum  core
     
-    2. Web3 - Modified its web3 based on etherium web3
+    2. Web3 - Modified its web3 based on Ethereum  web3
     
     3. ubuntu - system environment
     
