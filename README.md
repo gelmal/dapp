@@ -1,5 +1,5 @@
-# CRP(It complies with the rules of STO20 & ERC20)
-  a. Crp project's SmartContract & JS api
+# this Project (It complies with the rules of STO20 & ERC20)
+  a. this project's SmartContract & JS api
 
   b. My code marked '@author sykang' in function
   
@@ -7,17 +7,17 @@
 
   c. Development environment
   
-    1. Block-Cahin(CrpMainNet) - Modified its web3 based on Ethereum  core
+    1. Block-Cahin( it self MainNet) - Modified its web3 based on Ethereum  core
     
     2. Web3 - Modified its web3 based on Ethereum  web3
     
     3. ubuntu - system environment
     
-    4. docker - Works Ethereum & CRP private network for development & test
+    4. docker - Works Ethereum & private network for development & test
     
   d. My job
   
-    1. Develop smart-contract for CRP_service with solidity
+    1. Develop smart-contract for project_service with solidity
     
     2. Test whether smart-contract works well
     
